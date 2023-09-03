@@ -1,0 +1,135 @@
+
+@media (max-width: 500px){
+    body{
+        width: 100%;
+        padding: 28px;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+    .header{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .header_nav{
+        display: none;
+    }
+    .header_option{
+        display: none;
+    }
+    .burger_icon{
+        display: block;
+    }
+    .wrapper {
+        width: 100%;
+    }
+    .main {
+        background-size: 100%;
+        background-image: url(../img/main_img_mobile.png);
+        padding: 0 26px;
+        background-position: bottom;
+        padding: 0 0 341px;
+    }
+    .main_title {
+        width: 100%;
+        font-size: 28px;
+        line-height: 27px;
+        text-align: center;
+    }
+    .main_text {
+        width: 89%;
+        font-size: 14px;
+        text-align: center;
+        line-height: 20px;
+        margin: 20px auto 33px;
+    }
+    .main_btn {
+        width: 120px;
+        height: 40px;
+        line-height: 20px;
+        margin: auto;
+        display: block;
+        font-size: 14px;
+    }
+    .labels_topContent {
+        flex-direction: column;
+
+    }
+    .labels_text {
+        font-size: 20px;
+        line-height: 30px;
+        width: 89%;
+    }
+    .labels_imeges {
+        justify-content: space-evenly;
+        margin: 22px 0;
+        width: auto;
+    }
+    .labels_img {
+        transform: scale(0.65);
+
+    }
+    .labels_bottomContent {
+        background-size: 150%;
+        background-repeat: no-repeat;
+        margin: 0;
+    }
+        .special {
+         
+        }
+        .bot-text {
+            
+            font-size: 24px;
+            letter-spacing: 0px;
+            text-transform: capitalize;
+            font-family: Inter;
+            text-align: center;
+            margin-top: 0;
+            
+            
+        }
+        .small-text {
+            width: 100%;
+            font-size: 14px;
+            text-align: center;
+           
+            letter-spacing: -0.28px;
+            line-height: 20px; 
+            opacity: 0.5;
+            margin: auto auto 40px;
+            
+
+            
+        }
+        .revards {
+            display: block;
+            
+        }
+        .special_card {
+            width: 100%;
+        }
+        .revardOne {
+            width: 100%;
+        }
+        .special_card_title {
+        }
+        .special_card_text {
+            font-size: 14px;
+            line-height: 24px;
+            opacity: 0.6;
+            font-family: Inter;
+            
+
+        }
+        .special_card_link {
+            text-decoration: none;
+        }
+        .revardTwo {
+            width: 100%;
+            margin: 48px auto 48px;
+        }
+        .revardThree {
+            width: 100%;
+        }
+
+    }
+

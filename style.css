@@ -1,0 +1,212 @@
+.header {
+     display: flex;  /* отображение элемента */
+    width: 1400px; /* ширина */
+    margin: 25px auto 50px; /* отступ - сверху 25 , справа и слева , снизу */
+    justify-content: space-between; /* выравнивание по оси - прижаты по краям оси */
+    align-items: center; /*  выравнивание по горизонтальной  оси */
+    
+}
+.header_logo {
+    display: block; /* делает блочный элемент до конца строки */
+    width: 114px;
+    height: 32px;
+    background-image: url(../img/header_logo.png); /* изображение на заднем фоне */
+    background-repeat: no-repeat; /* повторение картинки ( не повторяться) */
+}
+.burger_icon {
+    width: 28px;
+    height: 12.2px;
+    background-image: url(../img/burger_icon.svg);
+    background-repeat:no-repeat ;
+    display: none;
+}
+.header_nav {
+    display: flex; /* элемент блочный , а элементы можно менять расположение */
+    width: 507px;
+    justify-content: space-between;
+}
+.header_link {
+    color: var(--navy-blue, #18216D); /*цвет */
+    font-family: Inter; /* семейство шрифта */
+    font-size: 18px; /*  размер шрифта*/
+    font-style: normal; /* стиль шрифта */
+    font-weight: 500; /* ширина шрифта */
+    line-height: 20px; /* 111.111% */ /* междустрочный интервал */
+    cursor: pointer;
+}
+.header_option {
+    display: flex;
+    width: 238px;
+    justify-content: space-between;
+    align-items: center; /* выравнивание элементов */
+}
+.header_btn {
+    width: 136px;
+    height: 52px;
+    border-radius: 6px;
+    background: var(--navy-blue, #18216D);
+    color: #FFF;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 117.647% */
+}
+
+.wrapper {
+    width: 1140px;
+    margin: auto;
+}
+.main {
+    padding-top: 95px;
+    background-image: url(../img/main_img.png);
+    background-repeat: no-repeat;
+    background-size: 786px;
+    background-position: right;
+    padding-bottom: 131px;
+}
+.main_title {
+    color: var(--navy-blue, #18216D);
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px; /* 125% */
+    width: 498px;
+}
+.main_text {
+    color: var(--navy-blue, #18216D);
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 164.706% */
+    width: 484px;
+    margin: 16px 0 34px;
+}
+.main_btn {
+    color: #18216D;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 180px;
+    height: 66px;
+    border-radius: 6px;
+    background: var(--00-ecd-0, #00ECD0);
+    border: none;
+}
+
+.labels {
+    margin-top: 122px;
+   
+}
+.labels_topContent {
+    display: flex;
+    justify-content: space-between;
+}
+.labels_text {
+    color: var(--navy-blue, #18216D);
+font-family: Inter;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: 50px; /* 138.889% */
+width: 494px;
+}
+.labels_imeges {
+   display: flex;
+   width: 337px;
+   justify-content: space-between;
+}
+.labels_img {
+    display: flex;
+}
+.labels_bottomContent {
+    height: 35px;
+    width: 100%;
+    background-image: url(../img/labelsImg.png);
+    margin-top: 49px;
+}
+
+.bot-text{
+    color: var(--navy-blue, #18216D);
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 64px; /* 133.333% */
+letter-spacing: -1px;
+text-transform: capitalize;
+text-align: center;
+margin-top: 131px;
+}
+
+.small-text{
+    color: var(--navy-blue, #18216D);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+    margin-top: 12px;
+    width: 542px;
+    display: block;
+    margin: auto;
+}
+
+.revards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 46px;
+  
+
+}
+.special_card{
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding-top: 100px;
+    width: 320px;
+}
+
+.revardOne {
+    background-image: url(../img/revard1.png);
+}
+
+.revardTwo {
+   background-image: url(../img/revard2.png);
+    
+}
+.revardThree{
+    background-image: url(../img/revard3.png);
+}
+
+.special_card_title{
+    color: var(--navy-blue, #18216D);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.special_card_text{
+    color: var(--navy-blue, #18216D);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 14px 0 30px;
+    line-height: 26px; /* 162.5% */
+
+}
+.special_card_link{
+    color: var(--navy-blue, #18216D);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 80% */
+}
+
